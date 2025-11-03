@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecture.Domain.Entities
 {
+    //Model for Blog Entity
     public class Blog
     {
         public int Id { get; set; }
