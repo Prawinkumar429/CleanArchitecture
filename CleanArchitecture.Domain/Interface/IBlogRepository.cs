@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecture.Domain.Interface
 {
+//Interface for Blog
     public interface IBlogRepository
     {
         Task<List<Blog>> GetAllAsync();
